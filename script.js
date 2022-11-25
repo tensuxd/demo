@@ -9,4 +9,4 @@
 }
 
 console.log(generatPassword()); 
-console.log (20 + 30) (ss2)
+console.log('Hi');

@@ -24,7 +24,7 @@ for (let i = 1; i <= period; i++){
 } 
 console.log(sum1);   */
 
-function calculateProfit(amount, percent, period){
+/* function calculateProfit(amount, percent, period){
   let total = amount 
     for (let i = 1; i <= period; i++){
       total += total * percent / 100
@@ -34,8 +34,20 @@ function calculateProfit(amount, percent, period){
 } 
 console.log (calculateProfit (1000, 5, 1))
 console.log (calculateProfit (1000, 5.5, 7)) 
+ */
+/* const emoji = String.fromCodePoint (0x1F621) 
+const emoji1 = String.fromCodePoint (0x1F354) 
 
-const emoji = String.fromCodePoint (0x1F621) 
-const emoji1 = String.fromCodePoint (0x1F62) 
+console.log(emoji); */
 
-console.log(emoji); 
+/* console.log(title.length);
+console.log(title[5]);
+console.log(title.at(-1));
+console.log(title.charAt(5));  */
+const title = 'Hello worlllllld!' 
+const cn = '';
+for (let i = title.length - 1; i <= 0; i--){
+  
+} 
+
+console.log(title.length);

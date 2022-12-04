@@ -44,10 +44,27 @@ console.log(emoji); */
 console.log(title[5]);
 console.log(title.at(-1));
 console.log(title.charAt(5));  */
-const title = 'Hello worlllllld!' 
-const cn = '';
-for (let i = title.length - 1; i <= 0; i--){
-  
-} 
 
-console.log(title.length);
+const title = '   Dany Frolov    '
+const title2 = 'Dany Frolov'
+let mom = 10
+let mom2 = 11
+//title длина 
+console.log(title, title.length); 
+//все буквы маленькие 
+console.log(title.toLowerCase());
+//все буквы большие
+console.log(title.toUpperCase());
+//стереть пустые строчки (trim все пустые) (right справа) (left слева)
+console.log(title.trimRight(), title.trimRight().length);
+console.log(title.trimLeft(), title.trimLeft().length);
+//заменить первую букву a на *
+console.log(title.replace('a', '*'));
+//заменить все буквы a на *
+console.log(title.replaceAll('o', '*'));
+//проверка слов/букв в title
+console.log(title.includes('Dany'))
+//проверить начало title
+console.log(title.startsWith('Dany')); 
+//проверка title с удалением пустых строчек
+console.log(title.trim().includes(title2)); 
